@@ -83,7 +83,7 @@ Shader "Custom/TransparentToon"
                 float lineValue = sin(IN.uv.y * _LineFrequency + _Time.y * _LineSpeed);
                 half3 lineColor = _LineColor.rgb * step(0.5, lineValue);
 
-                half3 finalColor = texColor.rgb + fresnelColor + lineColor;
+                half3 finalColor = texColor.rgb * _BaseColor.rgb + fresnelColor + lineColor;
 
                 Light mainLight;
                 float3 lightDirWS;
@@ -99,13 +99,13 @@ Shader "Custom/TransparentToon"
 
                 half NdotL = saturate(dot(normalWS, lightDirWS));
                 half rampValue = SAMPLE_TEXTURE2D(_RampTex, sampler_RampTex, float2(NdotL, 0)).r;
-                finalColor *= _BaseColor.rgb * lightColor * rampValue;
+                finalColor *= lightColor * rampValue;
 
                 half rimDot = 1.0 - saturate(dot(viewDirWS, normalWS));
                 half rimFactor = pow(rimDot, _RimPower);
                 finalColor += _RimColor.rgb * rimFactor;
 
-                return half4(finalColor, _Transparency);
+                return half4(finalColor, texColor.a * _Transparency);
             }
 
             ENDHLSL
