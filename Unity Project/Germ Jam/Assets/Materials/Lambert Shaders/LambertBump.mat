@@ -82,7 +82,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myBump:
-        m_Texture: {fileID: 2800000, guid: 2f4c577d7f17ff7489dc7b4c0d190e61, type: 3}
+        m_Texture: {fileID: 2800000, guid: 00ca8961b643c434b8c3a77edef428a3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -130,7 +130,7 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _mySlider: 1
+    - _mySlider: 0.41
     m_Colors:
     - _BaseColor: {r: 0.8198573, g: 1, b: 0.5424528, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
