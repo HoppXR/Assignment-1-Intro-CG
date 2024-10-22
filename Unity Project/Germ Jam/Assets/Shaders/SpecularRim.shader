@@ -27,7 +27,8 @@ Shader "Custom/URP_RimLighting_Specular"
             {
                 float4 positionOS : POSITION;   
                 float3 normalOS : NORMAL;      
-                float2 uv : TEXCOORD0;          
+                float2 uv : TEXCOORD0;
+                float4 tangentOS : TANGENT; // Tangent space for rim light calculations
             };
 
             struct Varyings

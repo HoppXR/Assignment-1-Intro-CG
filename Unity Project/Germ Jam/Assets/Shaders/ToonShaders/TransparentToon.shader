@@ -36,6 +36,7 @@ Shader "Custom/TransparentToon"
                 float4 positionOS : POSITION;
                 float3 normalOS : NORMAL;
                 float2 uv : TEXCOORD0;
+                float4 tangentOS : TANGENT; // Tangent space for rim light calculations
             };
 
             struct Varyings
@@ -66,7 +67,8 @@ Shader "Custom/TransparentToon"
                 Varyings OUT;
                 OUT.positionHCS = TransformObjectToHClip(IN.positionOS.xyz); 
                 OUT.normalWS = normalize(TransformObjectToWorldNormal(IN.normalOS));
-                OUT.viewDirWS = normalize(GetWorldSpaceViewDir(IN.positionOS.xyz)); 
+                float3 worldPosWS = TransformObjectToWorld(IN.positionOS.xyz);
+                OUT.viewDirWS = normalize(GetCameraPositionWS() - worldPosWS);
                 OUT.uv = IN.uv;
                 return OUT;
             }
@@ -85,25 +87,17 @@ Shader "Custom/TransparentToon"
 
                 half3 finalColor = texColor.rgb * _BaseColor.rgb + fresnelColor + lineColor;
 
-                Light mainLight;
-                float3 lightDirWS;
-                float3 lightColor;
-                #if defined(_MAIN_LIGHT_SHADOWS)
-                    mainLight = GetMainLight();
-                    lightDirWS = normalize(mainLight.direction);
-                    lightColor = mainLight.color.rgb;
-                #else
-                    lightDirWS = float3(0.0, 1.0, 0.0);
-                    lightColor = float3(1.0, 1.0, 1.0);
-                #endif
-
+                Light mainLight = GetMainLight();
+                float3 lightDirWS = normalize(mainLight.direction);
+                float3 lightColor = mainLight.color.rgb;
+                
                 half NdotL = saturate(dot(normalWS, lightDirWS));
                 half rampValue = SAMPLE_TEXTURE2D(_RampTex, sampler_RampTex, float2(NdotL, 0)).r;
                 finalColor *= lightColor * rampValue;
 
-                half rimDot = 1.0 - saturate(dot(viewDirWS, normalWS));
-                half rimFactor = pow(rimDot, _RimPower);
-                finalColor += _RimColor.rgb * rimFactor;
+                half rimFactor = 1.0 - saturate(dot(viewDirWS, normalWS));
+                half rimLighting = pow(rimFactor, _RimPower);
+                finalColor += _RimColor.rgb * rimLighting;
 
                 return half4(finalColor, texColor.a * _Transparency);
             }
