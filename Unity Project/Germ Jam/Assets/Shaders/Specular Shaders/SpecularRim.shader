@@ -1,4 +1,4 @@
-Shader "Custom/URP_RimLighting_Specular"
+Shader "Assignment1/SpecularRim"
 {
     Properties
     {

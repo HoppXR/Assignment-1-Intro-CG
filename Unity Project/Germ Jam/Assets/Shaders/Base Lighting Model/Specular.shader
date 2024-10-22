@@ -1,4 +1,4 @@
-Shader "Assignment1/Specular"
+Shader "Custom/Specular"
 {
     Properties
     {

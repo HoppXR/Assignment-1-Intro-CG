@@ -1,4 +1,4 @@
-Shader "Assignment1/Bump"
+Shader "Custom/Bump"
 {
     Properties
     {

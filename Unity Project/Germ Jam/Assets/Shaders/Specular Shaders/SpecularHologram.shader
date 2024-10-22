@@ -1,4 +1,4 @@
-Shader "Custom/HologramSpecular"
+Shader "Assignment1/HologramSpecular"
 {
     Properties
     {

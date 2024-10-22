@@ -3,7 +3,7 @@ Shader "Assignment1/LambertRim"
     Properties
     {
         _MainTex ("Base Texture", 2D) = "white" {}
-        _BaseColor ("Base Color", Color) = (1,1,1,1)
+        //_BaseColor ("Base Color", Color) = (1,1,1,1)
         _RimColor ("Rim Color", Color) = (0, 0.5, 0.5, 1)
         _RimPower ("Rim Power", Range(0.5, 8.0)) = 3.0
     }
@@ -72,7 +72,8 @@ Shader "Assignment1/LambertRim"
                 half rimFactor = 1.0 - saturate(dot(viewDirWS, normal));
                 half rimLighting = pow(rimFactor, _RimPower);
 
-                half3 finalColor = _BaseColor.rgb + _RimColor.rgb * rimLighting;
+                //half3 finalColor = _BaseColor.rgb + _RimColor.rgb * rimLighting;
+                half3 finalColor = texColor.rgb + _RimColor.rgb * rimLighting;
 
                 return half4(finalColor * NdotL, 1.0);
             }

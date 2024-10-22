@@ -1,4 +1,4 @@
-Shader "Custom/TransparentToon"
+Shader "Assignment1/TransparentToon"
 {
     Properties
     {

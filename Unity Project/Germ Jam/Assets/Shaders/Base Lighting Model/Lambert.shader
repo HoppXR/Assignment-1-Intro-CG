@@ -1,4 +1,4 @@
-Shader "Assignment1/Lambert"
+Shader "Custom/Lambert"
 {
     Properties
     {

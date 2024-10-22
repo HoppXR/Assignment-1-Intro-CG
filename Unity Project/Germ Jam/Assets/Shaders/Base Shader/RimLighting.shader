@@ -1,4 +1,4 @@
-Shader "Alvaro/URP/URP_RimLighting"
+Shader "Custom/RimLighting"
 {
     Properties
     {
