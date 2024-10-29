@@ -1,53 +1,31 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class ColorGrading : MonoBehaviour
 {
-    //[SerializeField] private Material[] lutMaterials;
-    public Material lutMaterial;
-    private int _index = 0;
-    
-    private void OnRenderImage(RenderTexture source, RenderTexture destination)
+    [SerializeField] private VolumeProfile defaultVolume;
+    [SerializeField] private VolumeProfile cold;
+    [SerializeField] private VolumeProfile warm;
+    [SerializeField] private VolumeProfile custom1;
+    [SerializeField] private VolumeProfile custom2;
+    private Volume _volume;
+
+    private void Start()
     {
-        Debug.Log("OnRenderImage called");
-        
-        if (lutMaterial != null)
-            Graphics.Blit(source, destination, lutMaterial);
-        else
-            Graphics.Blit(source, destination);
-        
-        //if (lutMaterials == null) return;
-        
-        //Graphics.Blit(source, destination, CurrentLut(_index));
+        _volume = GetComponent<Volume>();
     }
 
-    /*
-    private Material CurrentLut(int index)
+    private void Update()
     {
-        return lutMaterials[index];
-    }*/
-
-    public void NoLut()
-    {
-        _index = 0;
-    }
-
-    public void WarmLut()
-    {
-        _index = 1;
-    }
-
-    public void ColdLut()
-    {
-        _index = 2;
-    }
-
-    public void Custom1Lut()
-    {
-        _index = 3;
-    }
-
-    public void Custom2Lut()
-    {
-        _index = 4;
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+            _volume.profile = defaultVolume;
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+            _volume.profile = cold;
+        if (Input.GetKeyDown(KeyCode.Alpha7))
+            _volume.profile = warm;
+        if (Input.GetKeyDown(KeyCode.Alpha8))
+            _volume.profile = custom1;
+        if (Input.GetKeyDown(KeyCode.Alpha9))
+            _volume.profile = custom2;
     }
 }
