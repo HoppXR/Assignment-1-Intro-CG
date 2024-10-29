@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4778660021877077779}
   - component: {fileID: 5141397947700645621}
   - component: {fileID: 4227626382286986466}
+  - component: {fileID: 4820148894046871714}
   m_Layer: 0
   m_Name: BluePlayer.001
   m_TagString: Untagged
@@ -86,6 +87,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4820148894046871714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900491883491102130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &1266492042068758059
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,6 +161,7 @@ GameObject:
   - component: {fileID: 8008510224934334917}
   - component: {fileID: 1214529382599551373}
   - component: {fileID: 1423519500954686869}
+  - component: {fileID: 7284014308485476920}
   m_Layer: 0
   m_Name: BluePlayer.012
   m_TagString: Untagged
@@ -220,6 +237,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7284014308485476920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444738042657121443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &2770777683115584098
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,6 +263,7 @@ GameObject:
   - component: {fileID: 7213510994643816926}
   - component: {fileID: 6623103029145841720}
   - component: {fileID: 8934791934073450284}
+  - component: {fileID: 3911292873000240847}
   m_Layer: 0
   m_Name: BluePlayer.010
   m_TagString: Untagged
@@ -306,6 +339,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3911292873000240847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2770777683115584098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &2842504417726201771
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,6 +365,7 @@ GameObject:
   - component: {fileID: 8594962548247294347}
   - component: {fileID: 8720214963252995298}
   - component: {fileID: 9021046998914046199}
+  - component: {fileID: 2685172536938619080}
   m_Layer: 0
   m_Name: BluePlayer.003
   m_TagString: Untagged
@@ -392,6 +441,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2685172536938619080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2842504417726201771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &3181365914734828953
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,6 +467,7 @@ GameObject:
   - component: {fileID: 3450095960892760148}
   - component: {fileID: 2407148808448608886}
   - component: {fileID: 6290738544073473181}
+  - component: {fileID: 8231951258985829220}
   m_Layer: 0
   m_Name: BluePlayer.006
   m_TagString: Untagged
@@ -478,6 +543,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8231951258985829220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3181365914734828953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &3512914755810455018
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,6 +569,7 @@ GameObject:
   - component: {fileID: 6066584044934074891}
   - component: {fileID: 5017149769102490177}
   - component: {fileID: 6781142641282969039}
+  - component: {fileID: 2866111095248634792}
   m_Layer: 0
   m_Name: BluePlayer.009
   m_TagString: Untagged
@@ -564,6 +645,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2866111095248634792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3512914755810455018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &3563842575278549958
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +671,7 @@ GameObject:
   - component: {fileID: 2636719396079028160}
   - component: {fileID: 305542229865803856}
   - component: {fileID: 1411217064365552004}
+  - component: {fileID: 7226207364809022188}
   m_Layer: 0
   m_Name: BluePlayer.016
   m_TagString: Untagged
@@ -650,6 +747,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7226207364809022188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3563842575278549958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &3614816134060643160
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,6 +773,7 @@ GameObject:
   - component: {fileID: 6464705482205456718}
   - component: {fileID: 1579529052423704443}
   - component: {fileID: 1347616930804958068}
+  - component: {fileID: 91826299762889032}
   m_Layer: 0
   m_Name: BluePlayer.005
   m_TagString: Untagged
@@ -736,6 +849,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &91826299762889032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3614816134060643160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &4223388431352148312
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,7 +941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 291163380
+  GlobalObjectIdHash: 1143682394
   InScenePlacedSourceGlobalObjectIdHash: 291163380
   DeferredDespawnTick: 0
   Ownership: 1
@@ -905,6 +1033,7 @@ GameObject:
   - component: {fileID: 7248511300105300936}
   - component: {fileID: 7356721666845824600}
   - component: {fileID: 295922720536862533}
+  - component: {fileID: 3793558210940414921}
   m_Layer: 0
   m_Name: BluePlayer.014
   m_TagString: Untagged
@@ -980,6 +1109,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3793558210940414921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4546973700716129040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &4596310828913109106
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,6 +1135,7 @@ GameObject:
   - component: {fileID: 6680695591567568966}
   - component: {fileID: 6293868174968982371}
   - component: {fileID: 2935948045621257568}
+  - component: {fileID: 4104263001071027763}
   m_Layer: 0
   m_Name: BluePlayer.002
   m_TagString: Untagged
@@ -1066,6 +1211,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4104263001071027763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4596310828913109106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &5633047130121477414
 GameObject:
   m_ObjectHideFlags: 0
@@ -1077,6 +1237,7 @@ GameObject:
   - component: {fileID: 6952782822617284696}
   - component: {fileID: 7843250464579680174}
   - component: {fileID: 593864494949014915}
+  - component: {fileID: 4624117526803096630}
   m_Layer: 0
   m_Name: BluePlayer.008
   m_TagString: Untagged
@@ -1152,6 +1313,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4624117526803096630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5633047130121477414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &6406935726376707400
 GameObject:
   m_ObjectHideFlags: 0
@@ -1163,6 +1339,7 @@ GameObject:
   - component: {fileID: 4290121437520051919}
   - component: {fileID: 3375899586455200127}
   - component: {fileID: 6298217984376783366}
+  - component: {fileID: 1730780366956763211}
   m_Layer: 0
   m_Name: BluePlayer.007
   m_TagString: Untagged
@@ -1238,6 +1415,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1730780366956763211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6406935726376707400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &6536623720235449532
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,6 +1441,7 @@ GameObject:
   - component: {fileID: 5035720948502703435}
   - component: {fileID: 6890622195453512820}
   - component: {fileID: 2816347967073212753}
+  - component: {fileID: 3663249440012673790}
   m_Layer: 0
   m_Name: BluePlayer.015
   m_TagString: Untagged
@@ -1324,6 +1517,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3663249440012673790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6536623720235449532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &7087796698228176976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,6 +1544,7 @@ GameObject:
   - component: {fileID: 809203925195437729}
   - component: {fileID: 1097945238071412128}
   - component: {fileID: 2812053637462938781}
+  - component: {fileID: 3405466031176563725}
   m_Layer: 0
   m_Name: BluePlayer
   m_TagString: Untagged
@@ -1434,6 +1643,21 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: -0.0000026225548, y: -0.17106576, z: -0.00000049173843}
+--- !u!114 &3405466031176563725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7087796698228176976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &7697898234459610788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1445,6 +1669,7 @@ GameObject:
   - component: {fileID: 4811041495087013808}
   - component: {fileID: 4297513213553040337}
   - component: {fileID: 9169664441875648445}
+  - component: {fileID: 761205378482206909}
   m_Layer: 0
   m_Name: BluePlayer.004
   m_TagString: Untagged
@@ -1520,6 +1745,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &761205378482206909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697898234459610788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &7936382765084536027
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,6 +1771,7 @@ GameObject:
   - component: {fileID: 7198628202165262753}
   - component: {fileID: 5758933070740289935}
   - component: {fileID: 5249191036468093316}
+  - component: {fileID: 6094331874069780488}
   m_Layer: 0
   m_Name: BluePlayer.013
   m_TagString: Untagged
@@ -1606,6 +1847,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6094331874069780488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936382765084536027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &8677353101453837678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,6 +1873,7 @@ GameObject:
   - component: {fileID: 6860688103201528831}
   - component: {fileID: 7193202331988704073}
   - component: {fileID: 905282464606079828}
+  - component: {fileID: 3974113045914546957}
   m_Layer: 0
   m_Name: BluePlayer.011
   m_TagString: Untagged
@@ -1692,3 +1949,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3974113045914546957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8677353101453837678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}

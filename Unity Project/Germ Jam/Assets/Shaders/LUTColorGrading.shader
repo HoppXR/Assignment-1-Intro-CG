@@ -49,7 +49,7 @@ Shader "Assignment1/LUTColorGrading"
                 OUT.uv = IN.uv;
                 return OUT;
             }
-
+            
             half4 frag(Varyings IN) : SV_Target
             {
                 half4 col = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, IN.uv);

@@ -2,22 +2,29 @@ using UnityEngine;
 
 public class ColorGrading : MonoBehaviour
 {
-    [SerializeField] private Material[] lutMaterials;
+    //[SerializeField] private Material[] lutMaterials;
+    public Material lutMaterial;
     private int _index = 0;
     
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
         Debug.Log("OnRenderImage called");
         
-        if (lutMaterials == null) return;
+        if (lutMaterial != null)
+            Graphics.Blit(source, destination, lutMaterial);
+        else
+            Graphics.Blit(source, destination);
         
-        Graphics.Blit(source, destination, CurrentLut(_index));
+        //if (lutMaterials == null) return;
+        
+        //Graphics.Blit(source, destination, CurrentLut(_index));
     }
 
+    /*
     private Material CurrentLut(int index)
     {
         return lutMaterials[index];
-    }
+    }*/
 
     public void NoLut()
     {

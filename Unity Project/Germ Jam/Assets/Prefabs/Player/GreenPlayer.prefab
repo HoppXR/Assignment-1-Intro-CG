@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3394415726933956536}
   - component: {fileID: 6646238230871774854}
   - component: {fileID: 6866867364936111930}
+  - component: {fileID: 8886685183235212829}
   m_Layer: 0
   m_Name: GreenPlayerObj
   m_TagString: Untagged
@@ -65,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9c6f52aca427f4240973893f31530e96, type: 2}
+  - {fileID: -2968122116508163521, guid: b36847eb103e51e499647afe015c017a, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,6 +111,21 @@ CapsuleCollider:
   m_Height: 0
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8886685183235212829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644986660509448098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83c0a7dbcd702e43b3a688b6353c73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lambertMaterial: {fileID: 2100000, guid: 5fa86d27ddaf2b44cbfc3cd4a28ebae6, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 3cf7c513aa8f62047bc52fb3fa587b20, type: 2}
+  toonMaterial: {fileID: 2100000, guid: 7b05b45c9a027354aa9fadd95761a20a, type: 2}
 --- !u!1 &1662923882115683300
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 624309859
+  GlobalObjectIdHash: 1841426650
   InScenePlacedSourceGlobalObjectIdHash: 2649216770
   DeferredDespawnTick: 0
   Ownership: 1
@@ -242,8 +258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  uiAlive: {fileID: 8662470968253837159, guid: ce25b629748c6944f84fcdb35b677958, type: 3}
-  uiDead: {fileID: 8509829908712622610, guid: 0b911b503ab558340ab85b368328e7f4, type: 3}
+  playerIndex: 0
   moveSpeed: 10
   maxSpeed: 10
   rotationSpeed: 10
