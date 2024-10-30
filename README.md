@@ -244,4 +244,17 @@ while Bump mapping was used to create a textured and bumpy look for the environm
 
 ## Screenshots
 
-![](images/default_scene.png)
+### Default Unity Lighting
+![](<default scene.png>)
+
+### Lambert Lighting
+![](<lambert scene.png>)
+
+### Specular Lighting
+![](<specular scene.png>)
+
+### Toon Lighting
+![](<toon scene.png>)
+
+## DEMO
+![](ShaderDemo.gif)
